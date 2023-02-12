@@ -1,12 +1,7 @@
-import { IsNumber, IsString } from 'class-validator';
-
 export class InputValuesDto {
-  @IsString()
-  from: string;
-
-  @IsString()
+  //@IsString()
   to: string;
 
-  @IsNumber()
+  //@IsNumber()
   value: number;
 }
